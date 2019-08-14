@@ -1,4 +1,10 @@
-<a href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/prettydocs-free-bootstrap-theme-for-developers-and-startups/" target="_blank"><img src="http://themes.3rdwavemedia.com/wp-content/uploads/2015/12/Free-Bootstrap-Theme-for-Project-Documentation-PrettyDocs.png" alt="Free Bootstrap Theme for Developers and Startups" /></a>
+ 
+The purpose of this documentation is to:
+
+1. Help those interested in starting PyCon in their own local premises
+2. Guide current local organisers
+3. Provide information for other fellow PyCon Organisers.
+
 
 ## Theme Details & Demo
 
