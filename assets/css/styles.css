@@ -1287,6 +1287,9 @@ select {
   color: #616670;
 }
 
+.intro p {
+  text-align: left;
+}
 .cards-section .cards-wrapper {
   max-width: 860px;
   margin-left: auto;
