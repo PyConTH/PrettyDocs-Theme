@@ -238,7 +238,7 @@ select {
 
 /* ====== Header ====== */
 .header {
-  background: #494d55;
+  background: #8a8789;
   color: rgba(255, 255, 255, 0.85);
   border-top: 5px solid #40babd;
   padding: 30px 0;
@@ -268,11 +268,11 @@ select {
 }
 
 .branding .text-highlight {
-  color: #40babd;
+  color: #94e8ea;
 }
 
 .body-green .branding .text-highlight {
-  color: #75c181;
+  color: #94e8ea;
 }
 
 .body-blue .branding .text-highlight {
@@ -1202,7 +1202,7 @@ select {
 
 /* ======= Landing Page ======= */
 .landing-page .header {
-  background: #494d55;
+  background: #8a8789;
   color: rgba(255, 255, 255, 0.85);
   padding: 60px 0;
 }
