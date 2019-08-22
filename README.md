@@ -13,8 +13,8 @@ and
 
 ### How to use
 
-PyCon members are free to use resources from this repository as they see fit, provided they follow the usage terms outlined in the Creative Commons License 4.0 included in this repository.
- provided they follow the usage terms outlined in the [Creative Commons License 4.0](https://creativecommons.org/licenses/by-sa/4.0/) included in this repository.
+PyConTH members are free to use resources from this repository as they see fit during their course duty as a member of the organising team as guidance. Other PyCon organisers are welcome to use provided they follow the usage terms outlined in the  [Creative Commons License 4.0](https://creativecommons.org/licenses/by-sa/4.0/) included in this repository.
+
 
 You are free to:
 
