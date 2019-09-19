@@ -44,8 +44,8 @@
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item"><a href="/index.html">Home</a></li>
                     <li class="breadcrumb-item"><a href="/workgroups.html">Workgroups</a></li>
-                    <li class="breadcrumb-item active">Admin WG</li>
-                    <li class="breadcrumb-item active">Venue Lead</li>
+                    <li class="breadcrumb-item active">Tech WG</li>
+                    <li class="breadcrumb-item active">Tech Lead</li>
                 </ol>
                 <div class="top-search-box">
                     <form class="form-inline search-form justify-content-center" action="" method="get">
@@ -66,78 +66,98 @@
             <div class="container">
                 <div id="doc-header" class="doc-header text-center">
                     <h1 class="doc-title">
-                        <img src="/assets/images/building.png" alt="building">
-                        Admin WG</h1>
+                        <img src="/assets/images/tech.png" alt="tech">
+                        Tech WG</h1>
                     <div class="meta"><i class="far fa-clock"></i> Last updated: September 19th, 2019</div>
                 </div>
                 <!--//doc-header-->
                 <div class="doc-body row">
                     <div class="doc-content col-md-9 col-12 order-1">
                         <div class="content-inner">
-                            <section id="venuelead" class="doc-section">
-                                <h2 class="section-title">Venue Lead</h2>
+                            <section id="techlead" class="doc-section">
+                                <h2 class="section-title">Tech Lead</h2>
                                 <div class="section-block">
 
                                     <div id="Guidelines" class="section-block">
                             </section>
                             <h5 id="role-description">Role description</h5>
-                                            <p>Note: This position requires a someone who can speak Thai.</p>
+                            <p><em>Throughout entire event:</em></p>
+                                <ul>
+                                <li>Manages website committee, local information committee all softwares required for the event upon discussion with each WG lead.</li>
+                                <li>Oversees work for the conference website. Handles digital surveys for attendees, speakers and sponsors. It should be comparable with last years survey to as large an extent as possible.</li>
+                                <li>Find the best tool for delegates communication on the day of the event. (beacon tech, line chat, chat bot)</li>
+                                <li>Work with on-site tech lead to sort out equipment to ensure smooth transition during the tracks.</li>
+                                <li>Find best communication tool among team. (Slack, line, etc)</li>
+                                <li>Ensure work created by web engineer is coherent. handles pull requests on github by web engineer and web content editor.</li>
+                                </ul>
+                                <p><em>During</em></p>
+                                <ul>
+                                <li>Ensures website contents have been updated on par with social media contents</li>
+                                <li>Ensures logistics committee has got all onsite logistics going on in place.</li>
+                                <li>Ensures communication channel chosen for attendees are functioning well.</li>
+                                </ul>
+                                <p><em>After</em></p>
+                                <ul>
+                                <li>Sums up the results and makes a report, comparing the results with previous years.</li>
+                                <li>Ensures that post event contents will be posted.</li>
+                                <li>Ensure that website has been updated with links to videos of talks</li>
+                                </ul>
+                    
 
-                                            <p><em>Before event:</em></p>
-                                            <ul>
-                                                <li>Does preparatory work for selecting a venue.</li>
-                                                <li>
-                                                    Includes screening venues for suitability, reporting to the
-                                                    organising group about the facilities
-                                                </li>
-                                                <li>Finding out the pricing.</li>
-                                                <li>Reserves the venue</li>
-                                                <li>Keeps liason with the personnel who runs the venue.</li>
-                                                <li>
-                                                    Assists the sponsor recruiter with information about exhibition
-                                                    space and space for advertising materials.
-                                                </li>
-                                                <li>Helps with booking of extra space for sponsors.</li>
-                                                <li>
-                                                    Ensure registration, financial aid, green room, caterer, coffee,
-                                                </li>
-                                            </ul>
-
-                                            <p><em>During</em></p>
-                                            <ul>
-                                                <li>Is main contact point for any issues concerning the venue.</li>
-                                                <li>
-                                                    Assists sponsors having exhibition space and advertising space so
-                                                    that they get properly set up and torn down.
-                                                </li>
-                                                <li>
-                                                    Ensure all technical issues are running smoothly and co-ordinate
-                                                    with Tech Lead.
-                                                </li>
-                                            </ul>
-
-                                            <p><em>After</em></p>
-                                            <ul>
-                                                <li>Checks and approves the bill from the venue.</li>
-                                            </ul>
                             <h3 class="block-title">Guidelines</h3>
                             
-                            <h6 id="setting-up-your-venue">Setting Up Your Venue</h6>
-                            <p>PyCon Thailand has been working around with 3 tracks and so far it seems reasonable comfortable for the event. </p>
+                            <p>The technology uses in PyCon is as integral to success as the choice of entertainment or communications strategy. Even relatively modern advances like e-ticketing, digital surveys and event apps aren’t just expected by delegates, they’re vital to ensuring an event runs smoothly. However, in this brave new world of conferencing, even providing important functionality soon won’t be enough, as organisers begin to fully understand the significance of delegate engagement.</p>
+                                <p>For example, once upon a time the majority of delegates were happy carrying around an actual event programme. Yet, as soon as it was possible, they wanted digital versions instead. Now, as well as receiving the information upfront they want to be notified just before a speaker takes to the stage. Giving them enough time to grab a drink and find a spot in the crowd. putting a timer on screen before next talk.</p>
+                                <p>As well as turning a blind eye to any tech that can’t provide what they need when they need it, conference attendees have zero use for anything crowbarred into their experience. VR might still be “on trend”, but if it doesn’t add value to the experience, delegates simply won’t engage with it.</p>
+                                <h3 id="software-requirement">Software requirement</h3>
+                                <ol>
+                                <li>Paper Submission<ul>
+                                <li>Interface for registration on the site</li>
+                                <li>Submission of paper for review</li>
+                                </ul>
+                                </li>
+                                <li>Paper Review<ul>
+                                <li>Interface for paper reviewers, allowing easy acceptance/rejection, and easy listing of proposals</li>
+                                <li>Notification process for notifying all accepted/rejected papers of their status</li>
+                                </ul>
+                                </li>
+                                <li>Attendee Management<ul>
+                                <li>Easy registration for conference attendance</li>
+                                <li>Ability to register for sub-events</li>
+                                <li>Easy way for site administrators to notify all attendees</li>
+                                <li>Conference planning for attendees - the ability to list talks that the attendees want to attend</li>
+                                </ul>
+                                </li>
+                                <li><p>Website</p>
+                                <ul>
+                                <li>Ability to publish static/custom HTML pages</li>
+                                <li>Easy publication of news &amp; announcements</li>
+                                <li>Easy way to give access to content editors</li>
+                                <li>Ease of theming capabilities to allow a customised &amp; integrated site</li>
+                                </ul>
+                                </li>
+                                <li><p>Event&#39;s communication channel</p>
+                                <ul>
+                                <li><p>Chat Bot</p>
+                                <p>Many conferences are introducing AI-chatbots to help attendees navigate events without tying up staff, but chatbots also serve another purpose. By simply examining the questions delegates ask, you can learn which elements of your conference are causing confusion.</p>
+                                <p>Obviously, not everything you learn is going to feel important, but the less time delegates spend worrying about little details, the more attention they can pay to your messaging.</p>
+                                <p>Although a lot of time and effort is dedicated to arranging the bells and whistles, your conference is only successful if you actually influence delegates. The key is determining exactly what you want that influence to be and using these trends to make that happen.</p>
+                                </li>
+                                </ul>
+                                </li>
+                                <li><p>Organizers Communication</p>
+                                </li>
+                                <li>Documentation</li>
+                                </ol>
+                                <p>To make sure the conference technology you use is the right fit for your audience, ask yourself:</p>
+                                <h6 id="does-it-add-value-or-improve-the-experience-for-delegates-">Does it add value or improve the experience for delegates?</h6>
+                                <p>Are attendees comfortable using this technology? How does it help us achieve our goals? Does this help us measure our success?</p>
 
-                            <p><b>Format</b>: 4 keynote talks ( in main auditorium) spread over 2 days and thereafter split into 3 breakout sessions. </p>
-                            <p><b>Main auditorium</b>: The main room needs to hold a bit more than the expected attendees and is used for keynotes, this room should normally take at least 250 people. For 2020, we'd liked this to take 500 people.</p>
-                            <p><b>Smaller rooms:</b> 1-3 smaller rooms are needed for talks after keynote sessions. These rooms usually need to hold at least 100 people, depending on the number of tracks. We often use the main auditorium for one of these and schedule the more popular talks to take place in there. For the other rooms, we liked these to take about 150-200 people each.</p>
-                            <p><b>Hacking/meeting areas: </b>People like to hack, meet and talk during breaks or when they are not watching a talk. It is good to have a foyer with tables, chairs, plugs and wired internet and one room for quieter meetings (big enough for 40 people), but a number of rooms will do if there is no open space available.</p>
-                            <p><b>Green/Press room</b>: Speakers and Press need a quiet room where they can go to write up their reports.</p>
-                            <p><b>Staff room</b>: Your volunteers will need to chill. This can also be a safe place for them to lock up their valuables.</p>
-                            <p><b>Sponsors' room: </b>Try to find out if there is a space available for the sponsors to store their promotional materials etc. </p>
-                            <p>It is best to set up the merchandise stand, information desk and auditoriums the day before the conference starts.</p>
-
-                            <h5>Also check on <a href="/start.html" >step 5 & 6 of quick guide</a> for reference.</h5>
+                            <h5>Also check on <a href="/start.html" >step 9 of quick guide</a> for reference.</h5>
                       
                         </div>
                     </div>
+
 
                     <div class="doc-sidebar col-md-3 col-12 order-0 d-none d-md-flex">
                             <div id="doc-nav" class="doc-nav">
@@ -226,7 +246,6 @@
                             <!--//doc-nav-->
                         </div>
                         <!--//doc-sidebar-->
-               
                 </div>
 
 
@@ -240,6 +259,7 @@
     <!--//page-wrapper-->
 
    
+
     <!-- Main Javascript -->
     <script type="text/javascript" src="/assets/plugins/jquery-3.3.1.min.js"></script>
     <script type="text/javascript" src="/assets/plugins/bootstrap/js/bootstrap.min.js"></script>
